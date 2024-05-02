@@ -25,9 +25,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay-exynos9820
-
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.samsung
