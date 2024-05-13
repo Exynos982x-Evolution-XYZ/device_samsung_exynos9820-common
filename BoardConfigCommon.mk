@@ -51,6 +51,9 @@ BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_TAGS_OFFSET)
 
+## Build rules
+BUILD_BROKEN_DUP_RULES := true
+
 ## Camera
 $(call soong_config_set,samsungCameraVars,usage_64bit,true)
 ifneq ($(TARGET_DEVICE),beyond0lte)
