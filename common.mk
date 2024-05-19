@@ -356,6 +356,10 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung \
     android.hardware.usb.gadget-service.samsung
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
