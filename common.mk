@@ -357,8 +357,12 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget-service.samsung
 
 # Updater
+WITH_GMS ?= true
+
+ifeq ($(WITH_GMS),true)
 PRODUCT_PACKAGES += \
     Updater
+endif
 
 # Vibrator
 PRODUCT_PACKAGES += \
