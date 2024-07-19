@@ -100,6 +100,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor:32 \
     android.hardware.drm-service.clearkey
 
+# EvolutionX
+BUILD_SEEDVAULT := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
