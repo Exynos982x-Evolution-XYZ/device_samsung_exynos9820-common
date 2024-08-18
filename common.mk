@@ -97,7 +97,6 @@ PRODUCT_PACKAGES += \
 
 # EvolutionX
 BUILD_SEEDVAULT := true
-BUILD_BCR := false
 
 # fastbootd
 PRODUCT_PACKAGES += \
