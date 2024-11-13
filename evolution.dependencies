@@ -38,5 +38,11 @@
     {
         "repository": "kernel_samsung_exynos9820",
         "target_path": "kernel/samsung/exynos9820"
+    },
+    {
+        "repository": "LineageOS/android_bootable_deprecated-ota",
+        "target_path": "bootable/deprecated-ota",
+        "branch": "lineage-22.0",
+        "remote": "github"
     }
 ]
